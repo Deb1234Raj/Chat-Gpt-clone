@@ -24,11 +24,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+  <main className="min-h-screen flex flex-col">
+    <div className="flex-grow">
+      {children}
+    </div>
+    
+    {/* ✅ Your Footer Here */}
+    <footer className="text-center text-sm text-gray-500 py-4 border-t">
+      Built with ❤️ by{" "}
+      <a
+        href="https://github.com/debrajnaskar"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 underline"
       >
-        {children}
-      </body>
+        Debraj Naskar
+      </a>
+    </footer>
+  </main>
+</body>
     </html>
   );
 }
