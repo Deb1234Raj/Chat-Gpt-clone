@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   title: "ChatGPT Clone | Built by Debraj Naskar",
   description: "An AI assistant UI clone created using Next.js and Node.js by Debraj Naskar.",
   authors: [{ name: "Debraj Naskar", url: "https://github.com/debrajnaskar" }],
-  creator: "Debraj Naskar",
-  keywords: ["Debraj Naskar", "ChatGPT Clone", "Next.js", "OpenAI UI"],
+  creator: " Debraj Naskar",
+  keywords: [" Debraj Naskar", "ChatGPT Clone", "Next.js", "OpenAI UI"],
   metadataBase: new URL("https://chat-gpt-clone-coral.vercel.app"),
   openGraph: {
     title: "ChatGPT Clone | Built by Debraj Naskar",
