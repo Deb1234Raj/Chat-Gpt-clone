@@ -32,7 +32,7 @@ export default function RootLayout({
     
     {/* ✅ Your Footer Here */}
     <footer className="text-center text-sm text-gray-500 py-4 border-t">
-      Built with ❤️ by{" "}
+      Built with ❤️ by{"Debraj Naskar"}
       <a
         href="https://github.com/debrajnaskar"
         target="_blank"
