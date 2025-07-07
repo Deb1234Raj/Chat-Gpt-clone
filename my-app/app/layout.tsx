@@ -36,19 +36,18 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
   <main className="min-h-screen flex flex-col">
-    <div className="flex-grow">
-      {children}
-    </div>
-    
-    {/* ✅ Your Footer Here */}
-    <footer className="text-center text-sm text-gray-500 py-4 border-t">
-      Built with ❤️ by{" Debraj Naskar"}
-      <a
-        href="https://github.com/debrajnaskar"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600 underline"
-      >
+    <div className="flex-grow">{children}</div>
+
+    {/* ✅ Unique Footer */}
+    <footer className="border-t bg-gray-50 text-center py-4">
+      <p className="text-sm text-gray-600">
+        Built with <span className="text-red-500">❤️</span> by{" "}
+        <a
+          href="https://github.com/debrajnaskar"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-blue-600 hover:underline"
+        >
         Debraj Naskar
       </a>
     </footer>
